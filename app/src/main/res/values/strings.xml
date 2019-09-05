@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">iBusDriver</string>
+    <string name="action_settings">Settings</string>
+    <string name="buscode">公車代碼</string>
+    <string name="loadingroutedata">載入路線資料</string>
+    <string name="people_on_bus">車上人數</string>
+    <string name="people_waiting">等候人數</string>
+    <string name="people_service">服務預約人數</string>
+    <string name="decision">是否停此站</string>
+    <string name="stopName">站名</string>
+    <string name="direction0">去程</string>
+    <string name="direction1">返程</string>
+    <string name="testing">測試中暫無資料</string>
+    <string name="report_num">回報人數</string>
+</resources>

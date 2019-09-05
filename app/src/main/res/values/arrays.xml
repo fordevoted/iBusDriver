@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="choose_city_array">
+        <item>選擇城市</item>
+        <item>台北/新北</item>
+        <item>桃園</item>
+        <item>台中</item>
+        <item>高雄</item>
+    </array>
+
+</resources>

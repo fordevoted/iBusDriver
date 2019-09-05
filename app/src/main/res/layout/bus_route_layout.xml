@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/tv_stop_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="40sp"
+        android:text="@string/stopName"
+        android:background="#edc2c2"
+        android:textAlignment="gravity"
+        android:gravity="center_horizontal"
+        android:padding="20dp"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#edbe85"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:padding="20dp"
+            android:text="@string/people_on_bus"
+            android:textAlignment="gravity"
+            android:textSize="21sp" />
+
+        <ImageButton
+            android:id="@+id/bn_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="15dp"
+            android:contentDescription="@string/report_num"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/shape_capsule"
+            android:backgroundTint="#edab5a"
+            android:src="@drawable/report32" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/tv_people_on_bus"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/testing"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/people_waiting"
+        android:textSize="21sp"
+        android:layout_marginTop="20dp"
+        android:background="#cce87d"
+        android:textAlignment="gravity"
+        android:gravity="center_horizontal"
+        android:padding="20dp"/>
+    <TextView
+        android:id="@+id/tv_people_waiting"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/people_waiting"
+        android:textSize="22sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/people_service"
+        android:textSize="21sp"
+        android:background="#7be8a8"
+        android:textAlignment="gravity"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/tv_people_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:text="@string/people_service"
+        android:textSize="22sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_decision"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:layout_gravity="center_horizontal"
+        android:text="@string/decision"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:background="#d072ed"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
