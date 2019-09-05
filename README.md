@@ -9,4 +9,6 @@ Twaian city bus dynamic status app for driver
   * Input information and load the bus route and reservation data
 # Lincense 
    105802015 中央資工 陳昱瑋
+# Contact 
+  210509fssh@gmail.com
  
