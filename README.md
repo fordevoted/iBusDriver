@@ -2,7 +2,7 @@
 Twaian city bus dynamic status app for driver
 
 # Usages
-  [Downlaod apk here](https://drive.google.com/file/d/1yEvdVgIQcGPeIc5Fe4Ij6AWMpOly_vqC/view?usp=sharing "dowload apk") only for Android version at least android7.0 or SDK version at least 24
+  [Downlaod apk here](https://drive.google.com/file/d/1Ri3DAG0RlHOGsm4dbEYtVi0ifscpaK_H/view?usp=sharing "dowload apk") only for Android version at least android7.0 or SDK version at least 24
 
 # Features
   * TextToSpeech
